@@ -1,0 +1,17 @@
+{
+  "name": "job-orchestrator",
+  "version": "1.0.0",
+  "description": "Orchestrator for managing processing jobs",
+  "main": "orchestrator.js",
+  "scripts": {
+    "start": "node orchestrator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "celery-node": "^0.5.5",
+    "forever": "^4.0.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}

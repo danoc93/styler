@@ -1,0 +1,17 @@
+{
+  "name": "styler-api",
+  "version": "1.0.0",
+  "description": "API for managing interactions between the processing backend and the frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "celery-node": "^0.5.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  }
+}
